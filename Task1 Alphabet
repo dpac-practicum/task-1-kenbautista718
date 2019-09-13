@@ -1,0 +1,20 @@
+
+#Alphabet
+alpha = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p",
+"q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
+
+
+
+for x in range(0,26):
+   
+    if x == 4:
+        alpha[x] = "EE"
+    elif x == 9:
+        alpha[x] ="JJ"
+    elif x == 14:
+        alpha[x] ="OO"
+    elif x == 19:
+        alpha[x] ="TT"
+    elif x == 24:
+        alpha[x] ="YY"
+    print(alpha[x])
